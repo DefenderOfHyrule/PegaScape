@@ -52,7 +52,7 @@ You can also self-host PegaScape yourself:
 1. Install NodeJS and NPM.
 2. Clone the repo.
 3. Open cmd/terminal in the cloned directory.
-4. Run `npm install`.
+4. Run `npm install` with node 16.20.2 installed using something like nvm.
 5. Run `[sudo] node start.js [--webapplet] [--ip <html_server_ip_override>] [--host <dns_server_ip_override] [--disable-dns]`.
     * `--webapplet`: To enable fake internet, allowing the Switch to pass the connection test and load things like Fake News.
     * `--ip <html_server_ip_override>` if the detected IP address for the HTML server is not preffered.
